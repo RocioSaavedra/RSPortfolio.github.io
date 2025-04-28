@@ -1,0 +1,78 @@
+
+body {
+    background-color: black;   /* The background color of the entire website */
+ }
+
+ header{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252A;
+  display: flex;
+  justify-content: flex-end; /* Pushes everything to the end of the page */
+  align-items: center;
+  padding: 30px 10%;
+ }
+
+  li, a{
+    font-family:"Montserrat", sans-serif; /* Imported font I used for my navigation bar */
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffe139;
+    text-decoration:none;
+  }
+
+  button{
+    font-family:"Montserrat", sans-serif; /* Imported font I used for my navigation bar */
+    font-weight: 500;
+    font-size: 16px;
+    color: #ebd300;
+    text-decoration:none;
+  }
+  
+  .logo{
+    cursor: pointer;
+
+  }
+  
+  .nav__links{
+    list-style: none;
+  }
+
+  .nav__links li{
+    display: inline-block; /* Keeps all of my buttons side by side, instead of under each other */
+    padding: 0px 20px;
+  }
+
+  .nav__links li a{
+    transition: all 0.3s ease 0s;
+  }
+
+  .nav__links li a:hover{
+    color: #0088a9;
+  }
+
+  button{
+    padding: 9px 25px;
+    background-color:rgba(255, 253, 208);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  button:hover{
+    background-color:rgba(0,136,169,0.8) ; /* When you hover over the navigation buttons, the color changes to blue */
+  }
+
+
+ h1{
+   color: #ffe139; /* Font color of my title */
+   font-family:"Atkinson Hyperlegible Mono"; /* Imported font I used for my title */
+   text-align: center; /* Centered my title */
+ }
+
+ h2{
+    color:#ffe139; /* Font color of my title */
+    font-family:"Atkinson Hyperlegible Mono"; /* Imported font I used for my title */
+    text-align: center; /* Centered my title */
+ }

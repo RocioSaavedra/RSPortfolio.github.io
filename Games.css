@@ -1,0 +1,100 @@
+
+body{
+    background-color: #24252A; /* The background color of the entire website */
+}
+
+header{
+    /* Where the Nav bar code starts */
+    
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center; /* Pushes the Nav bar to the center of the page */
+        align-items: center;
+        padding: 30px 10%;
+    }
+    
+    li, a{
+        font-family:"Montserrat", sans-serif; /* Imported font I used for my navigation bar */
+        font-weight: 500;
+        font-size: 16px;
+        color: #ffe139;
+        text-decoration:none;
+      }
+    
+      button{
+        font-family:"Montserrat", sans-serif; /* Imported font I used for my navigation bar */
+        font-weight: 500;
+        font-size: 16px;
+        color: #ebd300;
+        text-decoration:none;
+      }
+      
+      .nav__links{
+        list-style: none;
+      }
+    
+      .nav__links li{
+        display: inline-block; /* Keeps all of my buttons side by side, instead of under each other */
+        padding: 0px 20px;
+      }
+    
+      .nav__links li a{
+        transition: all 0.3s ease 0s;
+      }
+    
+      .nav__links li a:hover{
+        color: #0088a9;
+      }
+    
+      button{
+        padding: 9px 25px;
+        background-color:rgba(255, 253, 208);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+      }
+      button:hover{
+        background-color:rgba(0,136,169,0.8) ; /* When you hover over the navigation buttons, the color changes to blue */
+      }
+    
+    /* Where the Nav bar code stops */
+
+    h1{
+        color: #ffe139;
+        font-family:"Atkinson Hyperlegible Mono"; /* Imported font I used for my title */
+        font-size: 50px;
+        text-align: center; /* Centered my title */
+    }
+    
+    div {
+      display: flex; /* Applying flexbox to our wrapper div */
+      justify-content: center; /* Centers flex children horizontally (assuming the flex-direction property is left as default)*/
+    }
+    
+    img {
+      width: 650px; /* Gives the image a set width lower than 100% (you can use a % instead of px value here to help with responsiveness) */
+    }
+
+    p{
+        color: white;
+        font-family:"Montserrat", sans-serif; /* Imported font I used for my text */
+        width: 850px;
+        font-size: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2{
+        color: #ffe139;
+        font-family:"Atkinson Hyperlegible Mono"; /* Imported font I used for my title */
+        font-size: 50px;
+        text-align: center; /* Centered my title */
+    }
+
+    h2 a:hover{
+        color: #0088a9;
+      }
